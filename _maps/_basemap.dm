@@ -4,9 +4,7 @@
 
 #ifndef LOWMEMORYMODE
 	#ifdef ALL_MAPS
-		#include "map_files\Zion-Road\Zion-Road-Lower.dmm"
-		#include "map_files\Zion-Road\Zion-Road-New.dmm"
-		#include "map_files\Zion-Road\Zion-Road-Upper.dmm"
+		#include "map_files\westford\westford.dmm"
 		#ifdef TRAVISBUILDING
 			#include "templates.dm"
 		#endif
