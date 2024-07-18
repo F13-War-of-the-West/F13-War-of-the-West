@@ -14,7 +14,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 			Don't use Greaseguns, Lever shotguns, Police shotguns, Berettas, Hunting knives
 
 		GAMEPLAY: TREKKING IS NOT INTENDED TO BE A COMMON TRAIT OF THE NCR. TREKKING WAS NEVER MEANT TO BE A COMMON TRAIT OF THE NCR. THIS WAS BECAUSE FROK THOUGHT A FACTION SHOULD BE STRONG BECAUSE THE PEOPLE WHO PLAY IT ARE BAD. I PERSONALLY, DO NOT GIVE HALF A FUCK. -ALEK
-*/
+
 
 /datum/job/ncr //do NOT use this for anything, it's just to store faction datums
 	department_flag = NCR
@@ -1279,3 +1279,4 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/ammo_box/magazine/m9mmds = 2,
 		/obj/item/clothing/accessory/ncr/SSGT = 1
 		)
+*/

@@ -275,6 +275,25 @@
 	armor = list("melee" = 45, "bullet" = 40, "laser" = 30, "energy" = 10, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 0, "wound" = 30)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 8)
 	slowdown = 0.1
+//Minutemen
+
+/obj/item/clothing/suit/armor/f13/combat/minutemen				//MM Combat armor
+	name = "Minutemen combat armor"
+	desc = "Pre-war military style armor, patched and missing some parts. Modified and repainted to declare the user a fighter for Caesar's Legion."
+	icon = 'icons/mob/clothing/suit.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/suit.dmi'
+	icon_state = "combat_armor_mm"
+	item_state = "combat_armor_mm"
+	mutantrace_variation = NONE
+
+/obj/item/clothing/suit/armor/f13/combat/minutemen/overcoat		//MM Combat armor w/ Coat
+	name = "Minutemen combat armor with Coat"
+	desc = "Pre-war military style armor, patched and missing some parts. Modified and repainted to declare the user a fighter for Caesar's Legion."
+	icon = 'icons/mob/clothing/suit.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/suit.dmi'
+	icon_state = "combat_armor_mm_overcoat"
+	item_state = "combat_armor_mm_overcoat"
+	mutantrace_variation = NONE
 
 //OFFICER ROLES
 /obj/item/clothing/suit/armor/f13/legion/veteran/decanus		//Legion Veteran Decanus armor

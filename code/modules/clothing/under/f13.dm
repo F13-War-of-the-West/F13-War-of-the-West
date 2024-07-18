@@ -85,6 +85,42 @@
 	mutantrace_variation = STYLE_DIGITIGRADE
 
 
+//MM
+/obj/item/clothing/under/f13/minutemen
+	name = "Minutemen uniform"
+	desc = "A set of standard issue Minutemen fatigues."
+	icon_state = "minutemen_uniform"
+	can_adjust = FALSE
+	item_state = "minutemen_uniform"
+	item_color = "minutemen_uniform"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
+
+/obj/item/clothing/under/f13/minutemen_nco
+	name = "Minutemen NCO uniform"
+	desc = "A set of standard issue Minutemen fatigues."
+	icon_state = "minutemen_uniform_nco"
+	can_adjust = FALSE
+	item_state = "minutemen_uniform_nco"
+	item_color = "minutemen_uniform_nco"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
+
+/obj/item/clothing/under/f13/minutemen_officer
+	name = "Minutemen officer uniform"
+	desc = "A set of standard issue Minutemen fatigues."
+	icon_state = "minutemen_uniform_officer"
+	can_adjust = FALSE
+	item_state = "minutemen_uniform_officer"
+	item_color = "minutemen_uniform_officer"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
+
+/obj/item/clothing/under/f13/minutemen_captain
+	name = "Minutemen captain uniform"
+	desc = "A set of standard issue Minutemen fatigues."
+	icon_state = "minutemen_uniform_captain"
+	can_adjust = FALSE
+	item_state = "minutemen_uniform_captain"
+	item_color = "minutemen_uniform_captain"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
 //NCR
 
 /obj/item/clothing/under/f13/ncr

@@ -10,7 +10,7 @@ They're primarily countered by long range attacks or wide defenses that force th
 The exception to the Legion's forced playstyle are Explorers and their squad lead, as well as the Centurion's prioprietary Ranger counter loadout.
 
 Discuss balance and documentation changes with Dragonfruits#1913 or forward them to Carl.
-*/
+
 
 /datum/job/CaesarsLegion
 	department_flag = LEGION
@@ -1314,3 +1314,4 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 	backpack_contents = list(
 		/obj/item/melee/onehanded/machete/spatha = 1,
 		)
+*/
