@@ -80,6 +80,34 @@
 	assignment = "citizenship permit"
 	access = list(ACCESS_BAR)
 
+/obj/item/card/id/dogtag/mm_enlisted
+	name = "Minutemen dogtags"
+	desc = "A dog tag that associates one with the Minutemen."
+	icon_state = "ncrdogtagrecruit"
+	assignment = "Minutemen Regular"
+	access = list(ACCESS_NCR)
+
+/obj/item/card/id/dogtag/mm_nco
+	name = "Minutemen NCO dogtags"
+	desc = "A dog tag that associates one as a Minuteman Non-Commissioned Officer."
+	icon_state = "ncrdogtagsergeant"
+	assignment = "Minutemen NCO"
+	access = list(ACCESS_NCR)
+
+/obj/item/card/id/dogtag/mm_officer
+	name = "Minutemen officer dogtags"
+	desc = "A dog tag that associates one as a Minuteman Officer."
+	icon_state = "ncrdogtagofficer"
+	assignment = "Minutemen Officer"
+	access = list(ACCESS_NCR)
+
+/obj/item/card/id/dogtag/mm_captain
+	name = "Minutemen captain dogtags"
+	desc = "A dog tag that associates one as a Minuteman Captain."
+	icon_state = "ncrdogtagcaptain"
+	assignment = "Minutemen Captain"
+	access = list(ACCESS_NCR)
+
 /obj/item/card/id/dogtag/vaultiecard
 	name = "Vault Citizenship"
 	desc = "Proof of citizenship to a vault."
@@ -463,4 +491,3 @@ end of
 	item_state = "card-id_leg"
 	assignment = "US dogtags"
 	access = list(ACCESS_ENCLAVE)
-

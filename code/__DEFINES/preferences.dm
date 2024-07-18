@@ -71,6 +71,7 @@
 #define EXP_TYPE_GHOST			"Ghost"
 #define EXP_TYPE_ADMIN			"Admin"
 //f13 stuff
+#define EXP_TYPE_MM             "Minutemen"
 #define EXP_TYPE_FALLOUT		"Fallout"
 #define EXP_TYPE_VAULT			"Vault"
 #define EXP_TYPE_BROTHERHOOD	"BoS"

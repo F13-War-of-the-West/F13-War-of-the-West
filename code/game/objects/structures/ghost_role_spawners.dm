@@ -719,7 +719,7 @@
 	icon_state = "matrix"
 	uses = 3
 
-/obj/effect/mob_spawn/human/fallout13/ncr
+/*/obj/effect/mob_spawn/human/fallout13/ncr
 	name = "NCR Trooper Spawn"
 	desc = "An entry point for troopers of the NCR to join a battle."
 	faction = "NCR"
@@ -736,7 +736,7 @@
 		/obj/item/storage/box/ration/menu_two = 1,
 		)
 
-/*
+
 /obj/effect/mob_spawn/human/fallout13/ncr/ranger
 	name = "NCR Ranger Spawn"
 	desc = "An entry point for rangers of the NCR to join a battle."
@@ -759,11 +759,11 @@
 		/obj/item/clothing/mask/gas/ranger = 1,
 		/obj/item/melee/onehanded/knife/bowie = 1,
 		)
-*/
+
 /obj/effect/mob_spawn/human/fallout13/ncr/special(mob/living/new_spawn)
 	new_spawn.real_name = random_unique_name(gender)
-
-/obj/effect/mob_spawn/human/fallout13/legion
+*/
+/*/obj/effect/mob_spawn/human/fallout13/legion
 	name = "Prime Legionnaire Spawn"
 	desc = "An entry point for prime legionaries of Caesar's Legion to join a battle."
 	faction = "Legion"
@@ -792,7 +792,7 @@
 		/obj/item/ammo_box/tube/m44 = 3,
 		/obj/item/melee/onehanded/machete/gladius = 1,
 		)
-
+*/
 /obj/effect/mob_spawn/human/fallout13/bos
 	name = "Knight Spawn"
 	desc = "An entry point for knights of the Brotherhood Of Steel to join a battle."
@@ -809,7 +809,7 @@
 		/obj/item/stock_parts/cell/ammo/mfc=2,
 		)
 
-/obj/effect/mob_spawn/human/fallout13/bos/paladin
+/*/obj/effect/mob_spawn/human/fallout13/bos/paladin
 	name = "Paladin Spawn"
 	desc = "An entry point for paladins of the Brotherhood Of Steel to join a battle."
 	mob_name = "Paladin"
@@ -823,7 +823,7 @@
 		/obj/item/ammo_box/magazine/m45exp=2,
 		/obj/item/clothing/accessory/bos/paladin=1
 		)
-
+*/
 /obj/effect/mob_spawn/human/fallout13/bos/special(mob/living/new_spawn)
 	new_spawn.real_name = random_unique_name(gender)
 

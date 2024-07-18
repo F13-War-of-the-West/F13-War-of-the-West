@@ -11,6 +11,7 @@
 #define FACTION_FOLLOWERS "Westford Medical"
 #define FACTION_KHAN "Great Khans"
 #define FACTION_TRIBAL "Tribals"
+#define FACTION_MINUTEMEN "Minutemen"
 
 #define ENGSEC			(1<<0)
 
@@ -55,6 +56,12 @@
 #define ASSISTANT		(1<<11)
 
 //F13
+#define MEN             (1<<3)
+
+#define MMCAPTAIN		 (1<<1)
+#define MMOFFICER        (1<<2)
+#define MMNCO            (1<<4)
+#define MMENLISTED       (1<<12)
 
 #define NCR				(1<<3)
 
@@ -323,3 +330,8 @@
 #define JOB_DISPLAY_ORDER_KHORCHIN 128
 #define JOB_DISPLAY_ORDER_KIPCHAK 129
 #define JOB_DISPLAY_ORDER_MANGUDAI 130
+
+#define JOB_DISPLAY_ORDER_MMCAPTAIN 131
+#define JOB_DISPLAY_ORDER_MMOFFICER 132
+#define JOB_DISPLAY_ORDER_MMNCO 133
+#define JOB_DISPLAY_ORDER_MMENLISTED 134

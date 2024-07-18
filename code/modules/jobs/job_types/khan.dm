@@ -1,4 +1,4 @@
-
+/*
 /datum/job/khan //do NOT use this for anything, it's just to store faction datums
 	department_flag = KHAN
 	selection_color = "#ff915e"
@@ -297,3 +297,4 @@
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/receiver)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/assembly)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/alloys)
+*/
