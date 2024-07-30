@@ -20,6 +20,12 @@
 	path = /obj/item/clothing/head/f13/slouch/
 	ckeywhitelist = list("TheLastHosea2")
 
+/datum/gear/donator/primebandana
+	name = "prime bandana"
+	slot = SLOT_WEAR_MASK
+	path = /obj/item/clothing/mask/bandana/legion/legprime
+	ckeywhitelist = list("Usuario2")
+
 /////////////////////
 ///Loadout Boxes///// See kits.dm, use this model for loadouts that have more than one item per character.
 /////////////////////
